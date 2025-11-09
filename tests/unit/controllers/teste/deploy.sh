@@ -10,7 +10,7 @@ if [ "$AMBIENTE" != "hom" ] && [ "$AMBIENTE" != "prd" ]; then
     exit 1
 fi
 
-. reacts3.sh
+. react.sh
 . s3.sh
 
 echo "Fazendo deploy..."
