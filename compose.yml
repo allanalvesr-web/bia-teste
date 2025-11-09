@@ -19,7 +19,7 @@ services:
       # DEBUG_SECRET: 
       # IS_LOCAL: true 
     # healthcheck:
-    #   test: ["CMD", "curl", "-f", "http://localhost:8080/api/versao"]
+    #   test: ["CMD", "curl", "-f", "http://18.217.33.209:8080/api/versao"]
     #   interval: 10s
     #   timeout: 5s
     #   retries: 3
